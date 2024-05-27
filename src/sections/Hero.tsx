@@ -1,6 +1,6 @@
 export default function Intro() {
     return (
-        <section className='flex h-screen pl-64 text-white bg-[#161616]'>
+        <section className='flex h-screen '>
             <div className="flex flex-1 justify-center items-center  bg-[url('/BlackWhite.webp')] bg-no-repeat bg-cover bg-center" >
                 <img src="/me.jpg" alt="" width={450} height={450} />
             </div>
