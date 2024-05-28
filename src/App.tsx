@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar'
 import Intro from './sections/Hero'
 import Projects from './sections/Projects'
 
+
 function App() {
 
   return (

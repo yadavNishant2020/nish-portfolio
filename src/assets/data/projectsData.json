@@ -1,0 +1,29 @@
+[
+    {
+        "id": "PROJECT #1",
+        "title": "Spoonful Saga",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
+        "techStack": ["MERN", "React", "Node.js", "Express"],
+        "githubLink": "https://github.com/your-repo",
+        "demoLink": "https://your-demo-link.com",
+        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/SpoonfulSaga.png"
+    },
+    {
+        "id": "PROJECT #2",
+        "title": "Adventure Tracker",
+        "description": "A web application for tracking outdoor adventures.",
+        "techStack": ["React", "Node.js", "MongoDB", "Express"],
+        "githubLink": "https://github.com/your-repo",
+        "demoLink": "https://your-demo-link.com",
+        "image": "adventure-tracker.png"
+    },
+    {
+        "id": "PROJECT #3",
+        "title": "E-commerce Store",
+        "description": "An e-commerce platform for buying and selling products online.",
+        "techStack": ["React", "Redux", "Node.js", "MongoDB"],
+        "githubLink": "https://github.com/your-repo",
+        "demoLink": "https://your-demo-link.com",
+        "image": "ecommerce-store.png"
+    }
+]
