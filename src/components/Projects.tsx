@@ -7,7 +7,7 @@ function ProjectComponent({ project }: { project: Project }) {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <div className="flex items-center relative p-[7%] z-10 py-[5%]">
+        <div className="flex items-center relative p-[7%] z-10 py-[6%]">
             <div className="w-[35vw] gap-6 flex flex-col">
                 <p className="text-lg">{project.id}</p>
                 <p className="text-xl font-semibold">{project.title}</p>

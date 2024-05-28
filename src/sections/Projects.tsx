@@ -12,7 +12,7 @@ import { useState } from "react";
 function Projects() {
   const [value, setValue] = useState('1');
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
@@ -24,8 +24,8 @@ function Projects() {
     <div>
       <SectionHeading Heading={"PROJECTS"} Subheading={"Some of my recent works."} />
       <TabContext value={value}>
-        <Box sx={{ borderBottom: 1, borderColor: 'divider', marginBottom: 2}}>
-          <TabList onChange={handleChange} centered aria-label="Project categories tabs" textColor="inherit" indicatorColor="none">
+        <Box>
+          <TabList onChange={handleChange} centered aria-label="Project categories tabs" textColor="inherit" >
             <Tab label="Web Applications" value="1" />
             <Tab label="Mobile Applications" value="2" />
             <Tab label="Designs" value="3" />
