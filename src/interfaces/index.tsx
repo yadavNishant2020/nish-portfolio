@@ -6,4 +6,5 @@ export interface Project {
     githubLink: string;
     demoLink: string;
     image: string;
+    category: string;
 }
