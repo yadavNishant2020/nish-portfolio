@@ -32,19 +32,25 @@ function Projects() {
           </TabList>
         </Box>
         <TabPanel value="1">
-          {getProjectsByCategory("Web Application").map((project: Project, index: number) => (
-            <ProjectComponent key={index} project={project} />
-          ))}
+          <div className="flex flex-wrap justify-evenly lg:block">
+            {getProjectsByCategory("Web Application").map((project: Project, index: number) => (
+              <ProjectComponent key={index} project={project} />
+            ))}
+          </div>
         </TabPanel>
         <TabPanel value="2">
-          {getProjectsByCategory("Mobile Application").map((project: Project, index: number) => (
-            <ProjectComponent key={index} project={project} />
-          ))}
+          <div className="flex flex-wrap justify-evenly lg:block">
+            {getProjectsByCategory("Mobile Application").map((project: Project, index: number) => (
+              <ProjectComponent key={index} project={project} />
+            ))}
+          </div>
         </TabPanel>
         <TabPanel value="3">
-          {getProjectsByCategory("Design").map((project: Project, index: number) => (
-            <ProjectComponent key={index} project={project} />
-          ))}
+          <div className="flex flex-wrap justify-evenly lg:block">
+            {getProjectsByCategory("Design").map((project: Project, index: number) => (
+              <ProjectComponent key={index} project={project} />
+            ))}
+          </div>
         </TabPanel>
       </TabContext>
     </div>
