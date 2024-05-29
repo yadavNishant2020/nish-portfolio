@@ -1,0 +1,54 @@
+{
+    "skills": [
+        {
+            "heading": "Frontend",
+            "imageSource": "https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png",
+            "name": "NextJS"
+        },
+        {
+            "heading": "Frontend",
+            "imageSource": "https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png",
+            "name": "NextJS"
+        },
+        {
+            "heading": "Frontend",
+            "imageSource": "https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png",
+            "name": "NextJS"
+        },
+        {
+            "heading": "Backend",
+            "imageSource": "https://nodejs.org/static/images/logo.svg",
+            "name": "NodeJS"
+        },
+        {
+            "heading": "Backend",
+            "imageSource": "https://nodejs.org/static/images/logo.svg",
+            "name": "NodeJS"
+        },
+        {
+            "heading": "Backend",
+            "imageSource": "https://nodejs.org/static/images/logo.svg",
+            "name": "NodeJS"
+        },
+        {
+            "heading": "Backend",
+            "imageSource": "https://nodejs.org/static/images/logo.svg",
+            "name": "NodeJS"
+        },
+        {
+            "heading": "Database",
+            "imageSource": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "name": "MySQL"
+        },
+        {
+            "heading": "Database",
+            "imageSource": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "name": "MySQL"
+        },
+        {
+            "heading": "Database",
+            "imageSource": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "name": "MySQL"
+        }
+    ]
+}

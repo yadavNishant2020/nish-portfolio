@@ -2,6 +2,7 @@ import './App.css'
 import Sidebar from './components/Sidebar'
 import Intro from './sections/Hero'
 import Projects from './sections/Projects'
+import Skills from './sections/Skills'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Sidebar />
       <Intro />
       <Projects />
+      <Skills />
     </div>
   )
 }

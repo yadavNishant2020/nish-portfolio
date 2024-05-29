@@ -15,7 +15,7 @@ function ProjectComponent({ project }: { project: Project }) {
                     <p className=" lg:text-lg">{project.description}</p>
                 </div>
                 <div className="flex gap-1 lg:gap-6 flex-wrap">
-                    {project.techStack.map((tech:any, index:any) => (
+                    {project.techStack.map((tech: any, index: any) => (
                         <p key={index} className="bg-[#111111d7] p-2 px-5 rounded-full shadow-[8px_3px_15px_-6px_#2d3748]">{tech}</p>
                     ))}
                 </div>

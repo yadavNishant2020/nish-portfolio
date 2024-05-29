@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.css-13xfq8m-MuiTabPanel-root {
+    padding: 0 !important;
+}
