@@ -2,44 +2,44 @@
     {
         "id": "PROJECT #1",
         "title": "Spoonful Saga",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
-        "techStack": ["MERN", "React", "Node.js", "Express"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
+        "description": "A full-stack Recipe App showcasing React, Node.js, and PostgreSQL, powered by the lightning-fast GPT-4 Turbo. Crafted for an engaging UI, scalable backend, and reliable data storage. Master CRUD operations and experience the joy of coding",
+        "techStack": ["TypeScript","React.js", "GPT 4", "PostgreSQL", "Node.js"],
+        "githubLink": "https://github.com/yadavNishant2020/Spoonful-Saga",
+        "demoLink": "https://spoonful-saga.vercel.app/",
         "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/SpoonfulSaga.png?raw=true",
         "category": "Web Application"
     },
     {
         "id": "PROJECT #2",
-        "title": "Adventure Tracker",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
-        "techStack": ["React", "Node.js", "MongoDB", "Express"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/sbs_project.png?raw=true",
+        "title": "Nish Admin Panel",
+        "description": "The Admin Panel UI offers a sleek and intuitive interface designed to streamline administrative tasks with efficiency and ease. With a clean layout and responsive design, it provides administrators with comprehensive control over various aspects of the application or system.",
+        "techStack": ["TypeScript","React.js", "Recharts", "SCSS", "Mui", "React Router"],
+        "githubLink": "https://github.com/yadavNishant2020/react-admin-ui/",
+        "demoLink": "https://react-admin-ui-chi.vercel.app/",
+        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/dashboard_project.png?raw=true",
         "category": "Web Application"
 
     },
     {
         "id": "PROJECT #3",
-        "title": "E-commerce Store",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
-        "techStack": ["React", "Redux", "Node.js", "MongoDB"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
+        "title": "SBS CASA ",
+        "description": "This is a webapp for start-up based company named SBS Casa Hostels. This app will help user to book their rooms in the hostel and get the exposure of all available rooms in it and what services they provide.",
+        "techStack": ["React.js", "SCSS", "Firebase"],
+        "githubLink": "https://github.com/yadavNishant2020/sbs-casa",
+        "demoLink": "https://sbs-casa-hostel.web.app/",
+        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/sbs_project.png?raw=true",
         "category": "Web Application"
 
     },
     {
-        "id": "PROJECT #1",
-        "title": "Spoonful Saga",
+        "id": "PROJECT #4",
+        "title": "MarkAll",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
-        "techStack": ["MERN", "React", "Node.js", "Express"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/SpoonfulSaga.png?raw=true",
-        "category": "Mobile Application"
+        "techStack": ["Next.js", "CSS"],
+        "githubLink": "https://github.com/yadavNishant2020/mark-all/tree/main",
+        "demoLink": "https://my-app-yadavnishant2020.vercel.app/",
+        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
+        "category": "Web Application"
     },
     {
         "id": "PROJECT #2",
