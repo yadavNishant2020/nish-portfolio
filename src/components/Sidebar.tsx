@@ -1,10 +1,20 @@
 import { useState } from 'react';
 
-export default function Sidebar() {
+interface SidebarProps {
+    activeSection: string;
+    onCloseSidebar: () => void; 
+}
+
+export default function Sidebar({ activeSection, onCloseSidebar }: SidebarProps) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleSidebar = () => {
         setIsOpen(!isOpen);
+    };
+
+    const handleSectionClick = () => {
+        setIsOpen(false);
+        onCloseSidebar(); 
     };
 
     const listStyle = 'ms-3 transition-all duration-200 ease-in cursor-pointer hover:text-gray-100 text-2xl min-[1120px]:text-lg';
@@ -31,27 +41,27 @@ export default function Sidebar() {
                     <ul className="flex flex-col space-y-2 font-sans text-lg gap-7">
                         <li className="cursor-pointer min-[1120px]:block hidden"><img src="/logo.png" alt="" width={170} className="mb-16 transition-all duration-200 ease-in hover:opacity-90" /></li>
                         <li>
-                            <a href="#">
+                            <a href="#intro" onClick={handleSectionClick} className={activeSection === 'intro' ? 'text-white' : 'text-gray-400'}>
                                 <span className={listStyle}>Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#projects" onClick={handleSectionClick} className={activeSection === 'projects' ? 'text-white' : 'text-gray-400'}>
                                 <span className={listStyle}>Projects</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#skills" onClick={handleSectionClick} className={activeSection === 'skills' ? 'text-white' : 'text-gray-400'}>
                                 <span className={listStyle}>Skills</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#about" onClick={handleSectionClick} className={activeSection === 'about' ? 'text-white' : 'text-gray-400'}>
                                 <span className={listStyle}>About</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#contact" onClick={handleSectionClick} className={activeSection === 'contact' ? 'text-white' : 'text-gray-400'}>
                                 <span className={listStyle}>Contact Me</span>
                             </a>
                         </li>
