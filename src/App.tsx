@@ -10,7 +10,7 @@ import Skills from './sections/Skills'
 function App() {
 
   return (
-    <div className='text-white bg-[#161616] md:pl-[16%] '>
+    <div className='text-white bg-[#161616] min-[1120px]:pl-[16%] '>
       <Sidebar />
       <Intro />
       <Projects />

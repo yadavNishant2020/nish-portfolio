@@ -21,7 +21,7 @@ function Projects() {
   };
 
   return (
-    <div>
+    <div className="min-h-screen ">
       <SectionHeading Heading={"PROJECTS"} Subheading={"Some of my recent works."} />
       <TabContext value={value}>
         <Box>

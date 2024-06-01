@@ -2,7 +2,7 @@ import SectionHeading from "../components/SectionHeading"
 
 function Contact() {
     return (
-        <section className="body-font relative bg-[#161616] ">
+        <section className="body-font relative bg-[#161616] min-h-screen flex items-center">
 
             <div className="container mx-auto">
 

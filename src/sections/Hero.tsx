@@ -1,6 +1,6 @@
 export default function Intro() {
     return (
-        <section className="flex flex-col md:flex-row h-screen gap-4">
+        <section className="flex flex-col md:flex-row h-screen gap-4 min-h-screen">
             <div className="flex-1 justify-center items-center hidden md:flex">
                 <img src="/me.jpg" alt="Profile" className="w-[55%] md:w-3/4 " />
             </div>

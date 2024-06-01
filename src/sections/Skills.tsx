@@ -9,7 +9,7 @@ function Skills() {
     const databaseSkills = skillsData.skills.filter(skill => skill.heading === "Database");
 
     return (
-        <div className='relative '> 
+        <div className='relative'> 
             <SectionHeading Heading={"SKILLS"} Subheading={"Technologies I've worked with."} />
             <div className='flex justify-around flex-col-reverse md:flex-row '>
                 <div className='pl-[7%] flex flex-col gap-7'>
