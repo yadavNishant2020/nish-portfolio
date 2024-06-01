@@ -1,6 +1,6 @@
 import ProjectComponent from "../components/Projects";
 import { Project } from '../interfaces';
-import projectsData from '../assets/data/projectsData.json'; // Import your project data
+import projectsData from '../assets/data/projectsData.json';
 import SectionHeading from "../components/SectionHeading";
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
@@ -25,9 +25,9 @@ function Projects() {
       <SectionHeading Heading={"PROJECTS"} Subheading={"Some of my recent works."} />
       <TabContext value={value}>
         <Box>
-          <TabList onChange={handleChange} centered aria-label="Project categories tabs" textColor="inherit" >
-            <Tab label="Web Applications" value="1" />
-            <Tab label="Mobile Applications" value="2" />
+          <TabList onChange={handleChange} centered aria-label="Project categories tabs" textColor="inherit" className="px-3" >
+            <Tab label="Web Apps" value="1"  />
+            <Tab label="Mobile Apps" value="2" />
             <Tab label="Designs" value="3" />
           </TabList>
         </Box>

@@ -1,5 +1,7 @@
 import './App.css'
 import Sidebar from './components/Sidebar'
+import About from './sections/About'
+import Contact from './sections/Contact'
 import Intro from './sections/Hero'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
@@ -13,6 +15,8 @@ function App() {
       <Intro />
       <Projects />
       <Skills />
+      <About />
+      <Contact />
     </div>
   )
 }

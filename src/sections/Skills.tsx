@@ -2,20 +2,20 @@ import SectionHeading from '../components/SectionHeading';
 import skillsData from '../assets/data/skillsData.json';
 import SkillsComponent from '../components/SkillsComponent';
 import Lottie from "lottie-react";
-import animation from "../assets/img/Animation2.json"
+import animation from "../assets/img/Animation3.json"
 function Skills() {
     const frontendSkills = skillsData.skills.filter(skill => skill.heading === "Frontend");
     const backendSkills = skillsData.skills.filter(skill => skill.heading === "Backend");
     const databaseSkills = skillsData.skills.filter(skill => skill.heading === "Database");
 
     return (
-        <div className='relative mt-6'> 
+        <div className='relative '> 
             <SectionHeading Heading={"SKILLS"} Subheading={"Technologies I've worked with."} />
             <div className='flex justify-around flex-col-reverse md:flex-row '>
                 <div className='pl-[7%] flex flex-col gap-7'>
                     <div>
                         <p className='font-semibold text-2xl'>Frontend</p>
-                        <div className='flex gap-8 m-4 pt-2 md:flex-wrap'>
+                        <div className='flex gap-8 m-4 pt-2 flex-wrap'>
                             {frontendSkills.map((skill, index) => (
                                 <SkillsComponent
                                     key={index}
@@ -28,7 +28,7 @@ function Skills() {
                     </div>
                     <div>
                         <p className='font-semibold text-2xl'>Backend</p>
-                        <div className='flex gap-8 m-4 pt-2 md:flex-wrap'>
+                        <div className='flex gap-8 m-4 pt-2 flex-wrap'>
                             {backendSkills.map((skill, index) => (
                                 <SkillsComponent
                                     key={index}
@@ -53,7 +53,7 @@ function Skills() {
                         </div>
                     </div>
                 </div>
-                <Lottie animationData={animation} className='md:w-[45%] w-[25%] absolute md:relative  right-0 top-0 ' />
+                <Lottie animationData={animation} className='md:w-[40%] w-[25%] absolute md:relative  right-5 top-[-5%] ' />
             </div>    
         </div>
     );
