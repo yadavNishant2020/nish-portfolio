@@ -1,6 +1,6 @@
 [
     {
-        "id": "PROJECT #1",
+        "id": "1",
         "title": "Spoonful Saga",
         "description": "A full-stack Recipe App showcasing React, Node.js, and PostgreSQL, powered by the lightning-fast GPT-4 Turbo. Crafted for an engaging UI, scalable backend, and reliable data storage. Master CRUD operations and experience the joy of coding",
         "techStack": ["TypeScript","React.js", "GPT 4", "PostgreSQL", "Node.js"],
@@ -10,7 +10,7 @@
         "category": "Web Application"
     },
     {
-        "id": "PROJECT #2",
+        "id": "2",
         "title": "Nish Admin Panel",
         "description": "The Admin Panel UI offers a sleek and intuitive interface designed to streamline administrative tasks with efficiency and ease. With a clean layout and responsive design, it provides administrators with comprehensive control over various aspects of the application or system.",
         "techStack": ["TypeScript","React.js", "Recharts", "SCSS", "Mui", "React Router"],
@@ -21,7 +21,7 @@
 
     },
     {
-        "id": "PROJECT #3",
+        "id": "3",
         "title": "SBS CASA ",
         "description": "This is a webapp for start-up based company named SBS Casa Hostels. This app will help user to book their rooms in the hostel and get the exposure of all available rooms in it and what services they provide.",
         "techStack": ["React.js", "SCSS", "Firebase"],
@@ -32,7 +32,7 @@
 
     },
     {
-        "id": "PROJECT #4",
+        "id": "4",
         "title": "MarkAll",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
         "techStack": ["Next.js", "CSS"],
@@ -41,30 +41,42 @@
         "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
         "category": "Web Application"
     },
+
+
+
+
     {
-        "id": "PROJECT #2",
-        "title": "Adventure Tracker",
-        "description": "A web application for tracking outdoor adventures.",
-        "techStack": ["React", "Node.js", "MongoDB", "Express"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/sbs_project.png?raw=true",
+        "id": "1",
+        "title": "FitFocus",
+        "description": "FitFocus is a comprehensive workout app that tracks your steps, counts calories, and presents the data interactively. It allows you to monitor your progress for each individual exercise and offers tutorials for beginners. Additionally, you can find exercises targeting specific muscles. Powered by Firebase for secure authentication, FitFocus is your all-in-one fitness companion.",
+        "techStack": ["React Native", "Tailwind Css", "Async Storage", "Firebase", "Health Connect API"],
+        "githubLink": "https://github.com/yadavNishant2020/FitFocus",
+        "demoLink": "https://github.com/yadavNishant2020/FitFocus",
+        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/fitFocus.jpg?raw=true",
         "category": "Mobile Application"
 
     },
     {
-        "id": "PROJECT #3",
-        "title": "E-commerce Store",
-        "description": "An e-commerce platform for buying and selling products online.",
-        "techStack": ["React", "Redux", "Node.js", "MongoDB"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
+        "id": "2",
+        "title": "Resume Builder",
+        "description": "Resume Builder is a dynamic application designed to help users create professional resumes with ease. It features a user-friendly interface for customizing and formatting resumes, ensuring a polished and professional look. The app includes various templates and provides guidance on best practices for resume writing. With real-time previews and the ability to export resumes in PDF format, Resume Builder simplifies the job application process.",
+        "techStack": ["React Native", "Tailwind Css", "React PDF", "MUI"],
+        "githubLink": "https://github.com/yadavNishant2020/FitFocus",
+        "demoLink": "https://github.com/yadavNishant2020/FitFocus",
+        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/resumeBuilder.jpg?raw=true",
         "category": "Mobile Application"
 
     },
+  
+
+
+
+
+
+
+
     {
-        "id": "PROJECT #1",
+        "id": "1",
         "title": "Spoonful Saga",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
         "techStack": ["MERN", "React", "Node.js", "Express"],
@@ -74,7 +86,7 @@
         "category": "Design"
     },
     {
-        "id": "PROJECT #2",
+        "id": "2",
         "title": "Adventure Tracker",
         "description": "A web application for tracking outdoor adventures.",
         "techStack": ["React", "Node.js", "MongoDB", "Express"],
@@ -85,7 +97,7 @@
 
     },
     {
-        "id": "PROJECT #3",
+        "id": "3",
         "title": "E-commerce Store",
         "description": "An e-commerce platform for buying and selling products online.",
         "techStack": ["React", "Redux", "Node.js", "MongoDB"],
