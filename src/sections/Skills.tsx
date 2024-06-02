@@ -12,7 +12,7 @@ function Skills() {
         <div className='relative'> 
             <SectionHeading Heading={"SKILLS"} Subheading={"Technologies I've worked with."} />
             <div className='flex justify-around flex-col-reverse md:flex-row '>
-                <div className='pl-[7%] flex flex-col gap-7 flex-1'>
+                <div className='min-[1120px]:pl-[7%] flex flex-col gap-12 flex-1'>
                     <div>
                         <p className='font-semibold text-2xl text-center md:text-left'>Frontend</p>
                         <div className='flex gap-8 m-4 pt-2 flex-wrap justify-evenly md:justify-normal'>

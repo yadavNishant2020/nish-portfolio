@@ -49,7 +49,7 @@
         "id": "1",
         "title": "FitFocus",
         "description": "FitFocus is a comprehensive workout app that tracks your steps, counts calories, and presents the data interactively. It allows you to monitor your progress for each individual exercise and offers tutorials for beginners. Additionally, you can find exercises targeting specific muscles. Powered by Firebase for secure authentication, FitFocus is your all-in-one fitness companion.",
-        "techStack": ["React Native", "Tailwind Css", "Async Storage", "Firebase", "Health Connect API"],
+        "techStack": ["React Native", "Tailwind CSS", "Async Storage", "Firebase", "Health Connect API"],
         "githubLink": "https://github.com/yadavNishant2020/FitFocus",
         "demoLink": "https://github.com/yadavNishant2020/FitFocus",
         "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/fitFocus.jpg?raw=true",

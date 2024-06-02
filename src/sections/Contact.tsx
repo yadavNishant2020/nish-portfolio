@@ -29,7 +29,7 @@ function Contact() {
                 <div className="mb-12 flex w-full flex-col text-center">
                     <SectionHeading Heading={"CONTACT ME"} Subheading={"Feel free to reach out to me! Whether you have a question, feedback, or a collaboration proposal."} />
                 </div>
-                <div className="mx-auto md:w-2/3 lg:w-1/2">
+                <div className="mx-auto md:w-2/3 lg:w-1/2 p-[4%]">
                     <form ref={form} onSubmit={sendEmail}>
                         <div className="flex">
                             <div className="w-1/2 p-2">
@@ -51,11 +51,11 @@ function Contact() {
                                 <label htmlFor="message" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:bg-gray-900 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Message</label>
                             </div>
                         </div>
-                        <div className="w-full p-2">
+                        <div className="w-full p-2 text-center md:text-left">
                             <button
                                 type="submit"
-                                className="self-center md:self-start text-gray-900 bg-white border border-gray-50 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium text-sm px-5 py-2.5 dark:bg-gray-950 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
-                            >
+                                className=" self-center md:self-start border focus:outline-none  focus:ring-4  font-medium text-sm px-5 py-2.5 bg-gray-950 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
+                                >
                                 Submit
                             </button>
                         </div>

@@ -1,4 +1,12 @@
 export default function Intro() {
+    const downloadCV = () => {
+        const link = document.createElement('a');
+        link.href = '/nishant_cv.pdf';
+        link.download = 'nishant_cv.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <section className="flex flex-col md:flex-row h-screen gap-4 min-h-screen">
             <div className="flex-1 justify-center items-center hidden md:flex">
@@ -12,7 +20,8 @@ export default function Intro() {
                 </div>
                 <button 
                     type="button" 
-                    className="mt-6 self-center md:self-start text-gray-900 bg-white border border-gray-50 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium text-sm px-5 py-2.5 dark:bg-gray-950 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                    onClick={downloadCV}
+                    className="mt-6 self-center md:self-start border focus:outline-none  focus:ring-4  font-medium text-sm px-5 py-2.5 bg-gray-950 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700"
                 >
                     Download CV
                 </button>
