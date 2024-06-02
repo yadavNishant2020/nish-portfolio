@@ -9,7 +9,7 @@ function About() {
                 <SectionHeading Heading={"ABOUT ME"} Subheading={"Know me more."} />
                 <div className="px-[7%] flex ">
                     <div className="md:flex-1  hidden md:flex justify-center items-center">
-                        <Lottie animationData={animation} className='md:w-[70%] w-[25%]  md:relative  right-5 top-[-5%] ' />
+                        <Lottie animationData={animation} className='md:w-[80%] w-[25%]  md:relative  right-5 top-[-5%] ' />
                     </div>
                     <div className="flex-1 flex flex-col justify-center gap-4">
                         <p className="text-2xl font-semibold">Nishant Singh Yadav</p>
