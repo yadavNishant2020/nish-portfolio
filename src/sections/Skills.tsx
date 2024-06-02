@@ -14,8 +14,8 @@ function Skills() {
             <div className='flex justify-around flex-col-reverse md:flex-row '>
                 <div className='pl-[7%] flex flex-col gap-7 flex-1'>
                     <div>
-                        <p className='font-semibold text-2xl'>Frontend</p>
-                        <div className='flex gap-8 m-4 pt-2 flex-wrap'>
+                        <p className='font-semibold text-2xl text-center md:text-left'>Frontend</p>
+                        <div className='flex gap-8 m-4 pt-2 flex-wrap justify-evenly md:justify-normal'>
                             {frontendSkills.map((skill, index) => (
                                 <SkillsComponent
                                     key={index}
@@ -27,8 +27,8 @@ function Skills() {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl'>Backend</p>
-                        <div className='flex gap-8 m-4 pt-2 flex-wrap'>
+                        <p className='font-semibold text-2xl text-center md:text-left'>Backend</p>
+                        <div className='flex gap-8 m-4 pt-2 flex-wrap justify-evenly md:justify-normal'>
                             {backendSkills.map((skill, index) => (
                                 <SkillsComponent
                                     key={index}
@@ -40,8 +40,8 @@ function Skills() {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl'>Others</p>
-                        <div className='flex gap-8 m-4 pt-2 flex-wrap'>
+                        <p className='font-semibold text-2xl text-center md:text-left'>Others</p>
+                        <div className='flex gap-8 m-4 pt-2 flex-wrap justify-evenly md:justify-normal'>
                             {databaseSkills.map((skill, index) => (
                                 <SkillsComponent
                                     key={index}
@@ -53,7 +53,7 @@ function Skills() {
                         </div>
                     </div>
                 </div>
-                <Lottie animationData={animation} className='md:w-[40%] w-[25%] absolute md:relative  right-5 top-[-5%] ' />
+                <Lottie animationData={animation} className='md:w-[40%] w-[25%] absolute md:relative  right-5 top-[-3%] ' />
             </div>    
         </div>
     );
