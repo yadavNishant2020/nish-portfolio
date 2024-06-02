@@ -38,7 +38,7 @@ export default function Sidebar({ activeSection, onCloseSidebar }: SidebarProps)
 
             <aside id="default-sidebar" className={`fixed top-0 left-0 z-40 w-full min-[1120px]:w-64 h-screen bg-[#111111] text-gray-400 transform ${isOpen ? 'translate-x-0' : '-translate-x-full '} transition-transform duration-300 ease-in-out min-[1120px]:translate-x-0`} aria-label="Sidebar">
                 <div className="flex items-center justify-center h-full">
-                    <ul className="flex flex-col space-y-2 font-sans text-lg gap-7">
+                    <ul className="flex flex-col space-y-2 font-sans text-lg gap-7 text-center min-[1120px]:text-left">
                         <li className="cursor-pointer min-[1120px]:block hidden"><img src="/logo.png" alt="" width={170} className="mb-16 transition-all duration-200 ease-in hover:opacity-90" /></li>
                         <li>
                             <a href="#intro" onClick={handleSectionClick} className={activeSection === 'intro' ? 'text-white' : 'text-gray-400'}>
