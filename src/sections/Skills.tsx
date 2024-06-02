@@ -6,13 +6,13 @@ import animation from "../assets/img/Animation3.json"
 function Skills() {
     const frontendSkills = skillsData.skills.filter(skill => skill.heading === "Frontend");
     const backendSkills = skillsData.skills.filter(skill => skill.heading === "Backend");
-    const databaseSkills = skillsData.skills.filter(skill => skill.heading === "Database");
+    const databaseSkills = skillsData.skills.filter(skill => skill.heading === "Others");
 
     return (
         <div className='relative'> 
             <SectionHeading Heading={"SKILLS"} Subheading={"Technologies I've worked with."} />
             <div className='flex justify-around flex-col-reverse md:flex-row '>
-                <div className='pl-[7%] flex flex-col gap-7'>
+                <div className='pl-[7%] flex flex-col gap-7 flex-1'>
                     <div>
                         <p className='font-semibold text-2xl'>Frontend</p>
                         <div className='flex gap-8 m-4 pt-2 flex-wrap'>
@@ -40,7 +40,7 @@ function Skills() {
                         </div>
                     </div>
                     <div>
-                        <p className='font-semibold text-2xl'>Database</p>
+                        <p className='font-semibold text-2xl'>Others</p>
                         <div className='flex gap-8 m-4 pt-2 flex-wrap'>
                             {databaseSkills.map((skill, index) => (
                                 <SkillsComponent

@@ -2,8 +2,18 @@
     "skills": [
         {
             "heading": "Frontend",
-            "imageSource": "https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png",
-            "name": "NextJS"
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgh0cmaLPqUaZd6iuo7D_iaOeLYb1QUdjMiA&s",
+            "name": "JavaScript"
+        },
+        {
+            "heading": "Frontend",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBeC8suvq0HoJyPCrQ0rZ2YnV-kcCYdJdjNA&s",
+            "name": "TypeScript"
+        },
+        {
+            "heading": "Frontend",
+            "imageSource": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            "name": "ReactJS"
         },
         {
             "heading": "Frontend",
@@ -12,43 +22,84 @@
         },
         {
             "heading": "Frontend",
-            "imageSource": "https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png",
-            "name": "NextJS"
+            "imageSource": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            "name": "React Native"
+        },
+       
+        {
+            "heading": "Frontend",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBOy1dXFCRv_iVBu4hz4QRSQAUtxAiwKfx8Q&s",
+            "name": "Redux"
+        },
+
+        {
+            "heading": "Frontend",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7s2FVOPGar_kegylFsa9su7Hhq86le0B7cw&s",
+            "name": "Tailwind CSS"
+        },
+        {
+            "heading": "Frontend",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2BK_NKs84ryk_LTpn7ppSY4hnibygrGsA_w&s",
+            "name": "MUI"
         },
         {
             "heading": "Backend",
-            "imageSource": "https://nodejs.org/static/images/logo.svg",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZY7pSp8vUlxBODPl3S4YYzsx0Ht-sB7EkQ&s",
             "name": "NodeJS"
         },
         {
             "heading": "Backend",
-            "imageSource": "https://nodejs.org/static/images/logo.svg",
-            "name": "NodeJS"
+            "imageSource": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+            "name": "ExpressJS"
         },
         {
             "heading": "Backend",
-            "imageSource": "https://nodejs.org/static/images/logo.svg",
-            "name": "NodeJS"
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNIa2GjsExd_GZmrCCI1G2ZJ6rGLQZoMa4WA&s",
+            "name": "PostgreSQL"
         },
         {
             "heading": "Backend",
-            "imageSource": "https://nodejs.org/static/images/logo.svg",
-            "name": "NodeJS"
+            "imageSource": "https://www.svgrepo.com/show/331488/mongodb.svg",
+            "name": "MongoDB"
         },
         {
-            "heading": "Database",
-            "imageSource": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+            "heading": "Backend",
+            "imageSource": "https://e7.pngegg.com/pngimages/119/167/png-clipart-firebase-cloud-messaging-google-developers-software-development-kit-google-angle-triangle-thumbnail.png",
+            "name": "Firebase"
+        },
+        {
+            "heading": "Backend",
+            "imageSource": "https://cdn.iconscout.com/icon/free/png-256/free-mysql-6-226028.png",
             "name": "MySQL"
         },
         {
-            "heading": "Database",
-            "imageSource": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
-            "name": "MySQL"
+            "heading": "Others",
+            "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
+            "name": "Git"
         },
+      
         {
-            "heading": "Database",
-            "imageSource": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
-            "name": "MySQL"
+            "heading": "Others",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqozVHv0fHusGky73gcUtK6onGf10ymZ3ReA&s",
+            "name": "Android Studio"
+        },
+      
+        {
+            "heading": "Others",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgH8-7IYliD1EzrXUiufBtvRFf6NgEPsIxbQ&s",
+            "name": "Vercel"
+        },
+      
+        {
+            "heading": "Others",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPljZjEifmq91JkJoikah4_jXlGZ1klHRqQ&s",
+            "name": "Netlify"
+        },
+      
+        {
+            "heading": "Others",
+            "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeaX7GxMAWRZ54ydHfjV2N89LCh5mMGErIlg&s",
+            "name": "Figma"
         }
     ]
 }

@@ -77,34 +77,12 @@
 
     {
         "id": "1",
-        "title": "Spoonful Saga",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam minima vel modi. Obcaecati aliquid saepe nisi deserunt, ab odio debitis nihil rerum adipisci nostrum minus suscipit doloremque reiciendis consectetur!",
-        "techStack": ["MERN", "React", "Node.js", "Express"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/SpoonfulSaga.png?raw=true",
+        "title": "MarkAll Design",
+        "description": "MarkAll Design is a visually appealing and user-centric design project created using Figma. It features a meticulously crafted landing page layout that demonstrates modern design principles and a seamless user experience. The design includes interactive elements and a clean aesthetic, showcasing advanced skills in Figma.",
+        "techStack": ["Figma"],
+        "githubLink": "https://github.com/yadavNishant2020",
+        "demoLink": "https://www.figma.com/design/QYr0Smx7s0TFek2reCp12t/Landing-Page?node-id=0-1&t=omsAZPGpouEeRNeq-0",
+        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markAll.png?raw=true",
         "category": "Design"
-    },
-    {
-        "id": "2",
-        "title": "Adventure Tracker",
-        "description": "A web application for tracking outdoor adventures.",
-        "techStack": ["React", "Node.js", "MongoDB", "Express"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/sbs_project.png?raw=true",
-        "category": "Design"
-
-    },
-    {
-        "id": "3",
-        "title": "E-commerce Store",
-        "description": "An e-commerce platform for buying and selling products online.",
-        "techStack": ["React", "Redux", "Node.js", "MongoDB"],
-        "githubLink": "https://github.com/your-repo",
-        "demoLink": "https://your-demo-link.com",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
-        "category": "Design"
-
     }
 ]
