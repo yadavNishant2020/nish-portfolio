@@ -44,10 +44,11 @@ function App() {
 
   return (
     <ErrorBoundary>
-      <div className="text-white bg-[#161616]">
+      <div className="text-white bg-[#161616] overflow-x-hidden">
         <Sidebar activeSection={activeSection} onCloseSidebar={() => {}} />
 
-        <div className="min-[1120px]:pl-[16%]">
+        {/* Main Content Area */}
+        <div className="min-[1120px]:pl-[16%] pt-16 min-[1120px]:pt-0">
           <Suspense fallback={<LoadingSpinner />}>
             <section id="intro">
               <Hero />
