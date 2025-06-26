@@ -1,12 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nishant's Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <title>Nishant Yadav - Full Stack Developer & Designer Portfolio</title>
+    <meta
+      name="description"
+      content="Nishant Yadav is a skilled full-stack developer and designer specializing in React, Node.js, TypeScript, and modern web technologies. View my portfolio of web applications, mobile apps, and design projects."
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Developer, React Developer, Node.js, TypeScript, Web Developer, UI/UX Designer, Portfolio, Nishant Yadav"
+    />
+    <meta name="author" content="Nishant Yadav" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nishant-portfolio.vercel.app/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nishant-portfolio.vercel.app/" />
+    <meta
+      property="og:title"
+      content="Nishant Yadav - Full Stack Developer & Designer"
+    />
+    <meta
+      property="og:description"
+      content="Explore the portfolio of Nishant Yadav, a passionate full-stack developer and designer. Discover innovative web applications and creative design solutions."
+    />
+    <meta property="og:image" content="/me.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://nishant-portfolio.vercel.app/"
+    />
+    <meta
+      property="twitter:title"
+      content="Nishant Yadav - Full Stack Developer & Designer"
+    />
+    <meta
+      property="twitter:description"
+      content="Explore the portfolio of Nishant Yadav, a passionate full-stack developer and designer."
+    />
+    <meta property="twitter:image" content="/me.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/me.jpg" as="image" type="image/jpeg" />
+    <link rel="preload" href="/logo.png" as="image" type="image/png" />
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#161616" />
+
+    <!-- Performance hints -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nishant Yadav",
+        "jobTitle": "Full Stack Developer",
+        "description": "Full Stack Developer and Designer specializing in React, Node.js, and modern web technologies",
+        "url": "https://nishant-portfolio.vercel.app/",
+        "image": "/me.jpg",
+        "sameAs": ["https://github.com/yadavNishant2020"]
+      }
+    </script>
   </head>
   <body>
+    <noscript>
+      <div
+        style="
+          text-align: center;
+          padding: 50px;
+          font-family: Arial, sans-serif;
+        "
+      >
+        <h1>JavaScript Required</h1>
+        <p>
+          This portfolio requires JavaScript to run. Please enable JavaScript in
+          your browser.
+        </p>
+      </div>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

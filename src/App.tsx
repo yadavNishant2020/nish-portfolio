@@ -1,36 +1,80 @@
-import { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import About from './sections/About';
-import Contact from './sections/Contact';
-import Footer from './sections/Footer';
-import Intro from './sections/Hero';
-import Projects from './sections/Projects';
-import Skills from './sections/Skills';
+import { useState, useEffect, lazy, Suspense } from "react";
+import Sidebar from "./components/Sidebar";
+import LoadingSpinner from "./components/LoadingSpinner";
+import ErrorBoundary from "./components/ErrorBoundary";
+
+// Lazy load sections for better performance
+const Hero = lazy(() => import("./sections/Hero"));
+const Projects = lazy(() => import("./sections/Projects"));
+const Skills = lazy(() => import("./sections/Skills"));
+const About = lazy(() => import("./sections/About"));
+const Contact = lazy(() => import("./sections/Contact"));
+const Footer = lazy(() => import("./sections/Footer"));
 
 function App() {
-  const [activeSection, setActiveSection] = useState('');
-  const handleCloseSidebar = () => {};
-  
+  const [activeSection, setActiveSection] = useState("intro");
+
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: "-50% 0px -50% 0px",
+      threshold: 0,
+    };
+
+    const observerCallback = (entries: IntersectionObserverEntry[]) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      observerCallback,
+      observerOptions
+    );
+
+    const sections = document.querySelectorAll("section[id]");
+    sections.forEach((section) => observer.observe(section));
+
+    return () => {
+      sections.forEach((section) => observer.unobserve(section));
+    };
+  }, []);
+
   return (
-    <div className='text-white bg-[#161616] min-[1120px]:pl-[16%] '>
-      <Sidebar activeSection={activeSection} onCloseSidebar={handleCloseSidebar} /> 
-      <div id="intro" onFocus={() => setActiveSection('intro')} onBlur={() => setActiveSection('')}>
-        <Intro />
+    <ErrorBoundary>
+      <div className="text-white bg-[#161616] overflow-x-hidden">
+        <Sidebar activeSection={activeSection} onCloseSidebar={() => {}} />
+
+        {/* Main Content Area */}
+        <div className="min-[1120px]:pl-[16%] pt-16 min-[1120px]:pt-0">
+          <Suspense fallback={<LoadingSpinner />}>
+            <section id="intro">
+              <Hero />
+            </section>
+
+            <section id="projects">
+              <Projects />
+            </section>
+
+            <section id="skills">
+              <Skills />
+            </section>
+
+            <section id="about">
+              <About />
+            </section>
+
+            <section id="contact">
+              <Contact />
+            </section>
+
+            <Footer />
+          </Suspense>
+        </div>
       </div>
-      <div id="projects" onFocus={() => setActiveSection('projects')} onBlur={() => setActiveSection('')}>
-        <Projects />
-      </div>
-      <div id="skills" onFocus={() => setActiveSection('skills')} onBlur={() => setActiveSection('')}>
-        <Skills />
-      </div>
-      <div id="about" onFocus={() => setActiveSection('about')} onBlur={() => setActiveSection('')}>
-        <About />
-      </div>
-      <div id="contact" onFocus={() => setActiveSection('contact')} onBlur={() => setActiveSection('')}>
-        <Contact />
-      </div>
-      <Footer />
-    </div>
+    </ErrorBoundary>
   );
 }
 
