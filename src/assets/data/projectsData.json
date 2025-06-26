@@ -1,88 +1,85 @@
 [
-    {
-        "id": "1",
-        "title": "Spoonful Saga",
-        "description": "A full-stack Recipe App showcasing React, Node.js, and PostgreSQL, powered by the lightning-fast GPT-4 Turbo. Crafted for an engaging UI, scalable backend, and reliable data storage. Master CRUD operations and experience the joy of coding",
-        "techStack": ["TypeScript","React.js", "GPT 4", "PostgreSQL", "Node.js"],
-        "githubLink": "https://github.com/yadavNishant2020/Spoonful-Saga",
-        "demoLink": "https://spoonful-saga.vercel.app/",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/SpoonfulSaga.png?raw=true",
-        "category": "Web Application"
-    },
-    {
-        "id": "2",
-        "title": "Nish Admin Panel",
-        "description": "The Admin Panel UI offers a sleek and intuitive interface designed to streamline administrative tasks with efficiency and ease. With a clean layout and responsive design, it provides administrators with comprehensive control over various aspects of the application or system.",
-        "techStack": ["TypeScript","React.js", "Recharts", "SCSS", "Mui", "React Router"],
-        "githubLink": "https://github.com/yadavNishant2020/react-admin-ui/",
-        "demoLink": "https://react-admin-ui-chi.vercel.app/",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/dashboard_project.png?raw=true",
-        "category": "Web Application"
-
-    },
-    {
-        "id": "3",
-        "title": "SBS CASA ",
-        "description": "This is a webapp for start-up based company named SBS Casa Hostels. This app will help user to book their rooms in the hostel and get the exposure of all available rooms in it and what services they provide.",
-        "techStack": ["React.js", "SCSS", "Firebase"],
-        "githubLink": "https://github.com/yadavNishant2020/sbs-casa",
-        "demoLink": "https://sbs-casa-hostel.web.app/",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/sbs_project.png?raw=true",
-        "category": "Web Application"
-
-    },
-    {
-        "id": "4",
-        "title": "MarkAll",
-        "description": "MarkAll is a web application built with Next.js and CSS, designed to provide users with an efficient and intuitive interface. The application focuses on performance and usability, featuring responsive design and seamless navigation. MarkAll showcases expertise in modern web development practices and aims to deliver a high-quality user experience.",
-        "techStack": ["Next.js", "CSS"],
-        "githubLink": "https://github.com/yadavNishant2020/mark-all/tree/main",
-        "demoLink": "https://my-app-yadavnishant2020.vercel.app/",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
-        "category": "Web Application"
-    },
-
-
-
-
-    {
-        "id": "1",
-        "title": "FitFocus",
-        "description": "FitFocus is a comprehensive workout app that tracks your steps, counts calories, and presents the data interactively. It allows you to monitor your progress for each individual exercise and offers tutorials for beginners. Additionally, you can find exercises targeting specific muscles. Powered by Firebase for secure authentication, FitFocus is your all-in-one fitness companion.",
-        "techStack": ["React Native", "Tailwind CSS", "Async Storage", "Firebase", "Health Connect API"],
-        "githubLink": "https://github.com/yadavNishant2020/",
-        "demoLink": "https://github.com/yadavNishant2020/",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/fitFocus.jpg?raw=true",
-        "category": "Mobile Application"
-
-    },
-    {
-        "id": "2",
-        "title": "Resume Builder",
-        "description": "Resume Builder is a dynamic application designed to help users create professional resumes with ease. It features a user-friendly interface for customizing and formatting resumes, ensuring a polished and professional look. The app includes various templates and provides guidance on best practices for resume writing. With real-time previews and the ability to export resumes in PDF format, Resume Builder simplifies the job application process.",
-        "techStack": ["React Native", "Tailwind Css", "React PDF", "MUI"],
-        "githubLink": "https://github.com/yadavNishant2020/",
-        "demoLink": "https://github.com/yadavNishant2020/",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/resumeBuilder.jpg?raw=true",
-        "category": "Mobile Application"
-
-    },
-  
-
-
-
-
-
-
-
-    {
-        "id": "1",
-        "title": "MarkAll Design",
-        "description": "MarkAll Design is a visually appealing and user-centric design project created using Figma. It features a meticulously crafted landing page layout that demonstrates modern design principles and a seamless user experience. The design includes interactive elements and a clean aesthetic, showcasing advanced skills in Figma.",
-        "techStack": ["Figma"],
-        "githubLink": "https://github.com/yadavNishant2020",
-        "demoLink": "https://www.figma.com/design/QYr0Smx7s0TFek2reCp12t/Landing-Page?node-id=0-1&t=omsAZPGpouEeRNeq-0",
-        "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markAll.png?raw=true",
-        "category": "Design"
-    }
+  {
+    "id": "web-1",
+    "title": "Spoonful Saga",
+    "description": "A full-stack Recipe App showcasing React, Node.js, and PostgreSQL, powered by the lightning-fast GPT-4 Turbo. Crafted for an engaging UI, scalable backend, and reliable data storage. Master CRUD operations and experience the joy of coding",
+    "techStack": ["TypeScript", "React.js", "GPT 4", "PostgreSQL", "Node.js"],
+    "githubLink": "https://github.com/yadavNishant2020/Spoonful-Saga",
+    "demoLink": "https://spoonful-saga.vercel.app/",
+    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/SpoonfulSaga.png?raw=true",
+    "category": "Web Application"
+  },
+  {
+    "id": "web-2",
+    "title": "Nish Admin Panel",
+    "description": "The Admin Panel UI offers a sleek and intuitive interface designed to streamline administrative tasks with efficiency and ease. With a clean layout and responsive design, it provides administrators with comprehensive control over various aspects of the application or system.",
+    "techStack": [
+      "TypeScript",
+      "React.js",
+      "Recharts",
+      "SCSS",
+      "Mui",
+      "React Router"
+    ],
+    "githubLink": "https://github.com/yadavNishant2020/react-admin-ui/",
+    "demoLink": "https://react-admin-ui-chi.vercel.app/",
+    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/dashboard_project.png?raw=true",
+    "category": "Web Application"
+  },
+  {
+    "id": "web-3",
+    "title": "SBS CASA ",
+    "description": "This is a webapp for start-up based company named SBS Casa Hostels. This app will help user to book their rooms in the hostel and get the exposure of all available rooms in it and what services they provide.",
+    "techStack": ["React.js", "SCSS", "Firebase"],
+    "githubLink": "https://github.com/yadavNishant2020/sbs-casa",
+    "demoLink": "https://sbs-casa-hostel.web.app/",
+    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/sbs_project.png?raw=true",
+    "category": "Web Application"
+  },
+  {
+    "id": "web-4",
+    "title": "MarkAll",
+    "description": "MarkAll is a web application built with Next.js and CSS, designed to provide users with an efficient and intuitive interface. The application focuses on performance and usability, featuring responsive design and seamless navigation. MarkAll showcases expertise in modern web development practices and aims to deliver a high-quality user experience.",
+    "techStack": ["Next.js", "CSS"],
+    "githubLink": "https://github.com/yadavNishant2020/mark-all/tree/main",
+    "demoLink": "https://my-app-yadavnishant2020.vercel.app/",
+    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
+    "category": "Web Application"
+  },
+  {
+    "id": "mobile-1",
+    "title": "FitFocus",
+    "description": "FitFocus is a comprehensive workout app that tracks your steps, counts calories, and presents the data interactively. It allows you to monitor your progress for each individual exercise and offers tutorials for beginners. Additionally, you can find exercises targeting specific muscles. Powered by Firebase for secure authentication, FitFocus is your all-in-one fitness companion.",
+    "techStack": [
+      "React Native",
+      "Tailwind CSS",
+      "Async Storage",
+      "Firebase",
+      "Health Connect API"
+    ],
+    "githubLink": "https://github.com/yadavNishant2020/",
+    "demoLink": "https://github.com/yadavNishant2020/",
+    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/fitFocus.jpg?raw=true",
+    "category": "Mobile Application"
+  },
+  {
+    "id": "mobile-2",
+    "title": "Resume Builder",
+    "description": "Resume Builder is a dynamic application designed to help users create professional resumes with ease. It features a user-friendly interface for customizing and formatting resumes, ensuring a polished and professional look. The app includes various templates and provides guidance on best practices for resume writing. With real-time previews and the ability to export resumes in PDF format, Resume Builder simplifies the job application process.",
+    "techStack": ["React Native", "Tailwind Css", "React PDF", "MUI"],
+    "githubLink": "https://github.com/yadavNishant2020/",
+    "demoLink": "https://github.com/yadavNishant2020/",
+    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/resumeBuilder.jpg?raw=true",
+    "category": "Mobile Application"
+  },
+  {
+    "id": "design-1",
+    "title": "MarkAll Design",
+    "description": "MarkAll Design is a visually appealing and user-centric design project created using Figma. It features a meticulously crafted landing page layout that demonstrates modern design principles and a seamless user experience. The design includes interactive elements and a clean aesthetic, showcasing advanced skills in Figma.",
+    "techStack": ["Figma"],
+    "githubLink": "https://github.com/yadavNishant2020",
+    "demoLink": "https://www.figma.com/design/QYr0Smx7s0TFek2reCp12t/Landing-Page?node-id=0-1&t=omsAZPGpouEeRNeq-0",
+    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markAll.png?raw=true",
+    "category": "Design"
+  }
 ]
