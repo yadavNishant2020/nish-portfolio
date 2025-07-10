@@ -1,16 +1,60 @@
 [
   {
     "id": "web-1",
+    "title": "InfluencerSathi",
+    "description": "InfluencerSathi is a comprehensive brand-influencer collaboration platform that connects brands with perfect influencers for impactful partnerships. The platform features a sleek interface for discovering and hiring influencers, with tools for campaign management, analytics, and seamless collaboration workflows. Built to unlock brand potential and turn influence into measurable impact.",
+    "techStack": ["React.js", "Node.js", "MongoDB", "Express.js", "JWT"],
+    "githubLink": "https://github.com/yadavNishant2020/",
+    "demoLink": "https://www.influencersathi.com/",
+    "image": "/src/assets/img/InfluncerSathi.jpg",
+    "category": "Web Application"
+  },
+  {
+    "id": "web-2",
+    "title": "AlphaGain",
+    "description": "AlphaGain is a sophisticated algorithmic trading platform that provides institutional-grade trading tools for retail investors. The platform features advanced charting, automated trading strategies, real-time market data, and comprehensive portfolio management. Built with cutting-edge technology to deliver professional trading experiences with multi-asset support including forex, indices, and commodities.",
+    "techStack": [
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "Socket.io",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "githubLink": "https://github.com/yadavNishant2020/",
+    "demoLink": "https://alphagain.in/",
+    "image": "/src/assets/img/AlphaGain.png",
+    "category": "Web Application"
+  },
+  {
+    "id": "web-3",
+    "title": "NTL Trading Platform",
+    "description": "NTL is a next-generation decentralized Bitcoin trading platform that revolutionizes cryptocurrency exchange with transparent, worry-free security. The platform features ultra-fast trading capabilities, advanced charting tools, and a mobile-first design. Built with cutting-edge blockchain technology to provide secure, non-custodial trading where users maintain full control of their assets.",
+    "techStack": [
+      "React.js",
+      "TypeScript",
+      "Web3.js",
+      "Node.js",
+      "Blockchain",
+      "WebSocket"
+    ],
+    "githubLink": "https://github.com/yadavNishant2020/",
+    "demoLink": "https://ntl-bitcoin-trading-platform-frontend.vercel.app/#/index",
+    "image": "/src/assets/img/NTL.png",
+    "category": "Web Application"
+  },
+  {
+    "id": "web-4",
     "title": "Spoonful Saga",
     "description": "A full-stack Recipe App showcasing React, Node.js, and PostgreSQL, powered by the lightning-fast GPT-4 Turbo. Crafted for an engaging UI, scalable backend, and reliable data storage. Master CRUD operations and experience the joy of coding",
     "techStack": ["TypeScript", "React.js", "GPT 4", "PostgreSQL", "Node.js"],
     "githubLink": "https://github.com/yadavNishant2020/Spoonful-Saga",
     "demoLink": "https://spoonful-saga.vercel.app/",
-    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/SpoonfulSaga.png?raw=true",
+    "image": "/src/assets/img/SpoonfulSaga.png",
     "category": "Web Application"
   },
   {
-    "id": "web-2",
+    "id": "web-5",
     "title": "Nish Admin Panel",
     "description": "The Admin Panel UI offers a sleek and intuitive interface designed to streamline administrative tasks with efficiency and ease. With a clean layout and responsive design, it provides administrators with comprehensive control over various aspects of the application or system.",
     "techStack": [
@@ -23,27 +67,27 @@
     ],
     "githubLink": "https://github.com/yadavNishant2020/react-admin-ui/",
     "demoLink": "https://react-admin-ui-chi.vercel.app/",
-    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/dashboard_project.png?raw=true",
+    "image": "/src/assets/img/dashboard_project.png",
     "category": "Web Application"
   },
   {
-    "id": "web-3",
+    "id": "web-6",
     "title": "SBS CASA ",
     "description": "This is a webapp for start-up based company named SBS Casa Hostels. This app will help user to book their rooms in the hostel and get the exposure of all available rooms in it and what services they provide.",
     "techStack": ["React.js", "SCSS", "Firebase"],
     "githubLink": "https://github.com/yadavNishant2020/sbs-casa",
     "demoLink": "https://sbs-casa-hostel.web.app/",
-    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/sbs_project.png?raw=true",
+    "image": "/src/assets/img/sbs_project.png",
     "category": "Web Application"
   },
   {
-    "id": "web-4",
+    "id": "web-7",
     "title": "MarkAll",
     "description": "MarkAll is a web application built with Next.js and CSS, designed to provide users with an efficient and intuitive interface. The application focuses on performance and usability, featuring responsive design and seamless navigation. MarkAll showcases expertise in modern web development practices and aims to deliver a high-quality user experience.",
     "techStack": ["Next.js", "CSS"],
     "githubLink": "https://github.com/yadavNishant2020/mark-all/tree/main",
     "demoLink": "https://my-app-yadavnishant2020.vercel.app/",
-    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markall_project.png?raw=true",
+    "image": "/src/assets/img/markall_project.png",
     "category": "Web Application"
   },
   {
@@ -59,7 +103,7 @@
     ],
     "githubLink": "https://github.com/yadavNishant2020/",
     "demoLink": "https://github.com/yadavNishant2020/",
-    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/fitFocus.jpg?raw=true",
+    "image": "/src/assets/img/fitFocus.jpg",
     "category": "Mobile Application"
   },
   {
@@ -69,7 +113,7 @@
     "techStack": ["React Native", "Tailwind Css", "React PDF", "MUI"],
     "githubLink": "https://github.com/yadavNishant2020/",
     "demoLink": "https://github.com/yadavNishant2020/",
-    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/resumeBuilder.jpg?raw=true",
+    "image": "/src/assets/img/resumeBuilder.jpg",
     "category": "Mobile Application"
   },
   {
@@ -79,7 +123,7 @@
     "techStack": ["Figma"],
     "githubLink": "https://github.com/yadavNishant2020",
     "demoLink": "https://www.figma.com/design/QYr0Smx7s0TFek2reCp12t/Landing-Page?node-id=0-1&t=omsAZPGpouEeRNeq-0",
-    "image": "https://github.com/yadavNishant2020/nish-portfolio/blob/main/src/assets/img/markAll.png?raw=true",
+    "image": "/src/assets/img/markAll.png",
     "category": "Design"
   }
 ]
