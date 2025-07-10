@@ -29,8 +29,7 @@ export default function Sidebar({
     }
   };
 
-  const listStyle =
-    "ms-3 transition-all duration-200 ease-in cursor-pointer hover:text-gray-100 text-xl sm:text-2xl min-[1120px]:text-lg";
+  const listStyle = "ms-3 transition-all duration-200 ease-in cursor-pointer hover:text-gray-100 text-xl sm:text-2xl min-[1120px]:text-lg";
 
   return (
     <>
@@ -109,7 +108,7 @@ export default function Sidebar({
                 onClick={() => handleSectionClick("intro")}
                 className={`${listStyle} ${
                   activeSection === "intro" ? "text-white" : "text-gray-400"
-                } w-full text-center min-[1120px]:text-left py-2 px-4 rounded-lg hover:bg-gray-800 transition-all duration-200`}
+                }`}
               >
                 Home
               </button>
@@ -119,7 +118,7 @@ export default function Sidebar({
                 onClick={() => handleSectionClick("projects")}
                 className={`${listStyle} ${
                   activeSection === "projects" ? "text-white" : "text-gray-400"
-                } w-full text-center min-[1120px]:text-left py-2 px-4 rounded-lg hover:bg-gray-800 transition-all duration-200`}
+                }`}
               >
                 Projects
               </button>
@@ -129,7 +128,7 @@ export default function Sidebar({
                 onClick={() => handleSectionClick("skills")}
                 className={`${listStyle} ${
                   activeSection === "skills" ? "text-white" : "text-gray-400"
-                } w-full text-center min-[1120px]:text-left py-2 px-4 rounded-lg hover:bg-gray-800 transition-all duration-200`}
+                }`}
               >
                 Skills
               </button>
@@ -139,7 +138,7 @@ export default function Sidebar({
                 onClick={() => handleSectionClick("about")}
                 className={`${listStyle} ${
                   activeSection === "about" ? "text-white" : "text-gray-400"
-                } w-full text-center min-[1120px]:text-left py-2 px-4 rounded-lg hover:bg-gray-800 transition-all duration-200`}
+                }`}
               >
                 About
               </button>
@@ -149,7 +148,7 @@ export default function Sidebar({
                 onClick={() => handleSectionClick("contact")}
                 className={`${listStyle} ${
                   activeSection === "contact" ? "text-white" : "text-gray-400"
-                } w-full text-center min-[1120px]:text-left py-2 px-4 rounded-lg hover:bg-gray-800 transition-all duration-200`}
+                }`}
               >
                 Contact Me
               </button>

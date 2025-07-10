@@ -5,6 +5,7 @@
 /* Global smooth scrolling */
 html {
   scroll-behavior: smooth;
+  background-color: #161616;
 }
 
 /* Custom scrollbar styling */
