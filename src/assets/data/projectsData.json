@@ -6,7 +6,7 @@
     "techStack": ["React.js", "Node.js", "MongoDB", "Express.js", "JWT"],
     "githubLink": "https://github.com/yadavNishant2020/",
     "demoLink": "https://www.influencersathi.com/",
-    "image": "/src/assets/img/InfluncerSathi.jpg",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/InfluncerSathi.jpg",
     "category": "Web Application"
   },
   {
@@ -23,7 +23,7 @@
     ],
     "githubLink": "https://github.com/yadavNishant2020/",
     "demoLink": "https://alphagain.in/",
-    "image": "/src/assets/img/AlphaGain.png",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/AlphaGain.png",
     "category": "Web Application"
   },
   {
@@ -40,7 +40,7 @@
     ],
     "githubLink": "https://github.com/yadavNishant2020/",
     "demoLink": "https://ntl-bitcoin-trading-platform-frontend.vercel.app/#/index",
-    "image": "/src/assets/img/NTL.png",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/NTL.png",
     "category": "Web Application"
   },
   {
@@ -50,7 +50,7 @@
     "techStack": ["TypeScript", "React.js", "GPT 4", "PostgreSQL", "Node.js"],
     "githubLink": "https://github.com/yadavNishant2020/Spoonful-Saga",
     "demoLink": "https://spoonful-saga.vercel.app/",
-    "image": "/src/assets/img/SpoonfulSaga.png",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/SpoonfulSaga.png",
     "category": "Web Application"
   },
   {
@@ -67,7 +67,7 @@
     ],
     "githubLink": "https://github.com/yadavNishant2020/react-admin-ui/",
     "demoLink": "https://react-admin-ui-chi.vercel.app/",
-    "image": "/src/assets/img/dashboard_project.png",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/dashboard_project.png",
     "category": "Web Application"
   },
   {
@@ -87,7 +87,7 @@
     "techStack": ["Next.js", "CSS"],
     "githubLink": "https://github.com/yadavNishant2020/mark-all/tree/main",
     "demoLink": "https://my-app-yadavnishant2020.vercel.app/",
-    "image": "/src/assets/img/markall_project.png",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/markall_project.png",
     "category": "Web Application"
   },
   {
@@ -103,7 +103,7 @@
     ],
     "githubLink": "https://github.com/yadavNishant2020/",
     "demoLink": "https://github.com/yadavNishant2020/",
-    "image": "/src/assets/img/fitFocus.jpg",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/fitFocus.jpg",
     "category": "Mobile Application"
   },
   {
@@ -113,7 +113,7 @@
     "techStack": ["React Native", "Tailwind Css", "React PDF", "MUI"],
     "githubLink": "https://github.com/yadavNishant2020/",
     "demoLink": "https://github.com/yadavNishant2020/",
-    "image": "/src/assets/img/resumeBuilder.jpg",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/resumeBuilder.jpg",
     "category": "Mobile Application"
   },
   {
@@ -123,7 +123,7 @@
     "techStack": ["Figma"],
     "githubLink": "https://github.com/yadavNishant2020",
     "demoLink": "https://www.figma.com/design/QYr0Smx7s0TFek2reCp12t/Landing-Page?node-id=0-1&t=omsAZPGpouEeRNeq-0",
-    "image": "/src/assets/img/markAll.png",
+    "image": "https://raw.githubusercontent.com/yadavNishant2020/nish-portfolio/refs/heads/main/src/assets/img/markAll.png",
     "category": "Design"
   }
 ]
